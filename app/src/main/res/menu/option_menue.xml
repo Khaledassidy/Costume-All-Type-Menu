@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    root howe menue-->
+<!--    b2albo bekoun she esmo <item> 2aw <group> -->
+<!--    <item>:ya3ne 3onsour b2alb l menue kel 3onsour b2alb l menue howe <item>-->
+<!--    <group>:majmo3a mn l 3anser b maken mo3ayan ya3ne wa2t tefta7 navigation drawer 7a tle2e eno majmo3a mn l 3anser ta7t 3onwen mo3ayan w 3anaser tenye ta7t 3enwen tene fa btla7ez l 3anaser bel menue m2asame la majmo3at hay l majmo3at esma group fa be2dar 2a3mel group w jeweta ma3mo3a mn l 3anaser-->
+
+<!--   2awl she la na3ml item 3osnour b2alb l menue 2awl she lezm ykoun elo id 3ashen te2dar tewsalo b file java->-->
+<!--    ba3den l item ela title 3eween l she l maktob bekoun b2alb l item l 3osour-->
+<!--    feek ba3den t7ot icon la kel wa7de-->
+<!--    fee ba3den showAsaction btkoun never,always,collapseactionview,withtext
+
+never:ya3ne l 3onsour ma 7a yezhar bel action bar 7a yezhar bas bel menue ta7t l 3 no2at le fo2 ba3d
+always:ya3ne l heed l 3onour deyman yezhar 3al action bar ma tezhar bel 3 no2at le fo2 ba3d
+bas houn 7a nla7ez sha8le l 3onour bas ykoun 3al action bar 7a yeznhar bel icon ta3elo iza shelt l icon byezhr bel title ta3elo l 2awlawye ta3eto lal icon  w l 2awlaweye ta3et l 3 point lal title
+collapseactionview:hayde eno iza btl7ez bas ykoun fe search w enta tekbous 3lee fa kel l icon le 3ala l action bar bey5tefo yamen w shmel beze7o ya3ne w btseer feek tektob
+ifroom:ya3ne iza fe wasa3 ya3ne iza fee wasa3 zhaar hay l icon demn l action bar iza ma fe wasa3 zhara bel 3 points le fo2 ba3d
+withtext:ya3ne zherle l icon ma3 text
+2aktr wa7de most3mle ifroom
+
+
+-->
+    <item android:id="@+id/menue_notification"
+        android:title="Notification"
+        android:icon="@drawable/baseline_alarm_on_24"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item android:id="@+id/menue_about"
+        android:title="about"
+        android:icon="@drawable/baseline_account_circle_24"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item android:id="@+id/menue_setting"
+        android:title="setting"
+        android:icon="@drawable/baseline_app_settings_alt_24"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item android:id="@+id/blutoth"
+        android:title="Blutoth"
+        android:icon="@drawable/baseline_bluetooth_audio_24"
+        app:showAsAction="ifRoom">
+
+    </item>
+</menu>
